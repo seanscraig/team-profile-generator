@@ -2,8 +2,8 @@ module.exports = [
   {
     message: "Please enter the team manager's name:",
     name: "name",
-    validate: (name) => {
-      if (name) {
+    validate: (answer) => {
+      if (answer) {
         return true;
       } else {
         console.error("\nPlease enter the team manager's name.");
